@@ -33,6 +33,12 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerView.layoutManager = layoutManager
 
         adapter.submitData(contactList)
+
+        binding.btnDiffUtil.setOnClickListener {
+            val newList: MutableList<Contact> = contactList.toMutableList()
+            newList[2] = Contact(R.drawable.pak_rt, "Pak RW", "Halo, ini kegiatan lingkungan RW minggu ini", "16:00")
+            adapter.submitData(newList as ArrayList<Contact>)
+        }
     }
 
     override fun onDestroy() {
