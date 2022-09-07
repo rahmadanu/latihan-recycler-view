@@ -16,6 +16,15 @@
 
 <br></br>
 
+### App Preview
+
+<p align="center">
+  <img width=360 height=720 src="https://user-images.githubusercontent.com/96525733/188953016-91d4c36d-91bf-4fd0-8f32-a827052c3bcb.png">
+
+</p>
+
+<br></br>
+
 ## Author
 
 [@rdanusadewa](https://www.instagram.com/rdanusadewa/)
